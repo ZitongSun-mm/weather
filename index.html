@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Rivera · Designer &amp; Developer</title>
+  <meta name="description" content="The friendly corner of the web for Alex Rivera — designer, developer, and lifelong tinkerer." />
+
+  <!-- Fonts: warm serif headings + rounded, friendly body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ============ Header ============ -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">🌞</span>
+        Alex Rivera
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ Hero / introduction ============ -->
+    <section class="hero container">
+      <div class="hero-avatar">
+        <span class="hero-avatar-fallback" aria-hidden="true">🙂</span>
+        <img
+          src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=warm%20friendly%20illustrated%20headshot%20portrait%20of%20a%20smiling%20person%2C%20soft%20cream%20and%20coral%20background%2C%20modern%20flat%20vector%20illustration%20style%2C%20kind%20expression%2C%20soft%20lighting&image_size=square_hd"
+          alt="Illustrated portrait of Alex Rivera smiling warmly"
+          width="220" height="220"
+          onerror="this.remove();"
+        />
+      </div>
+
+      <span class="hero-eyebrow"><span class="hero-wave">👋</span>&nbsp; Hello there, welcome!</span>
+
+      <h1>Hi, I'm <span class="highlight">Alex Rivera</span></h1>
+
+      <p class="hero-lead">
+        I'm a product designer and front-end developer who loves turning fuzzy little ideas
+        into friendly, useful things — websites, apps, and the occasional weekend side project.
+        When I'm away from the screen, you'll usually find me chasing hiking trails,
+        sketching in cafés, or curled up with a very good book.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="projects.html">✨ See my projects</a>
+        <a class="btn btn-ghost" href="contact.html">Say hello</a>
+      </div>
+    </section>
+
+    <!-- ============ Three things I like ============ -->
+    <section class="section container" aria-labelledby="likes-title">
+      <div class="section-head reveal">
+        <span class="kicker">A little about me</span>
+        <h2 id="likes-title">Three things I love</h2>
+        <p>The stuff that fills my days — and my camera roll — with joy.</p>
+      </div>
+
+      <div class="likes-grid">
+        <article class="like-card reveal">
+          <div class="like-icon">🌱</div>
+          <h3>Building &amp; tinkering</h3>
+          <p>
+            Side projects, tiny tools, and LEGO-like code experiments.
+            If it can be made, I've probably tried it on a rainy Sunday.
+          </p>
+        </article>
+
+        <article class="like-card reveal">
+          <div class="like-icon">🥾</div>
+          <h3>Hiking &amp; travel</h3>
+          <p>
+            National parks, coastal paths, and getting wonderfully lost
+            in new cities with a camera slung over my shoulder.
+          </p>
+        </article>
+
+        <article class="like-card reveal">
+          <div class="like-icon">☕</div>
+          <h3>Coffee &amp; books</h3>
+          <p>
+            I take my coffee slow and my novels long. Current quest:
+            finding the coziest reading nook on the planet.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ Footer with fun fact ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="fun-fact">
+        <div class="fun-fact-bubble">
+          <strong>✨ Fun fact about me</strong>
+          <span>
+            I've hiked through 14 national parks, and I can name every country
+            that borders Brazil — a skill useful almost exclusively at trivia night.
+          </span>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Alex Rivera · Made with warmth and too much coffee.</p>
+        <ul>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
