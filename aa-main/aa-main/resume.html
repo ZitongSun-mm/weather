@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume · Alex Rivera</title>
+  <meta name="description" content="Alex Rivera's resume — experience, education, and skills in design and front-end development." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ============ Header ============ -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">🌞</span>
+        Alex Rivera
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html" class="active">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <!-- ============ Page intro ============ -->
+      <section class="page-hero reveal">
+        <span class="kicker">My journey so far</span>
+        <h1>Resume</h1>
+        <p>
+          A quick look at where I've worked, what I've learned, and the tools
+          I reach for when there's something wonderful to build.
+        </p>
+      </section>
+
+      <!-- ============ Two-column layout ============ -->
+      <div class="resume-layout">
+
+        <!-- ----- Left: experience timeline ----- -->
+        <div>
+          <section class="panel reveal" aria-labelledby="exp-title">
+            <h2 class="panel-title" id="exp-title"><span class="emoji">💼</span> Experience</h2>
+
+            <div class="timeline">
+              <div class="tl-item">
+                <p class="tl-when">2023 — Present</p>
+                <h3>Product Designer &amp; Front-End Developer</h3>
+                <p class="tl-org">Brightside Studio</p>
+                <ul>
+                  <li>Lead design and development for 12+ client web products, from first sketch to launch.</li>
+                  <li>Built a shared design system that cut project setup time by roughly 40%.</li>
+                  <li>Mentor two junior designers and host a friendly monthly "show &amp; tell" workshop.</li>
+                </ul>
+              </div>
+
+              <div class="tl-item">
+                <p class="tl-when">2021 — 2023</p>
+                <h3>Front-End Developer</h3>
+                <p class="tl-org">Maple &amp; Co.</p>
+                <ul>
+                  <li>Crafted responsive, accessible interfaces used by over 200,000 monthly visitors.</li>
+                  <li>Improved page-load performance by 55% through thoughtful refactoring and image work.</li>
+                  <li>Partnered closely with researchers to turn user interviews into design improvements.</li>
+                </ul>
+              </div>
+
+              <div class="tl-item">
+                <p class="tl-when">Summer 2020</p>
+                <h3>Design Intern</h3>
+                <p class="tl-org">Pixel &amp; Pine Creative</p>
+                <ul>
+                  <li>Designed marketing pages and social graphics for three local small businesses.</li>
+                  <li>Learned that good questions teach you more than good answers ever could.</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel reveal" aria-labelledby="vol-title">
+            <h2 class="panel-title" id="vol-title"><span class="emoji">🤝</span> Volunteering</h2>
+            <div class="timeline">
+              <div class="tl-item">
+                <p class="tl-when">2022 — Present</p>
+                <h3>Workshop Leader — Code Club for Teens</h3>
+                <p class="tl-org">Community Library, Portland</p>
+                <ul>
+                  <li>Teach a cheerful monthly workshop on making your first webpage.</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- ----- Right: skills, education, languages ----- -->
+        <aside>
+          <section class="panel reveal" aria-labelledby="skills-title">
+            <h2 class="panel-title" id="skills-title"><span class="emoji">🎯</span> Core Skills</h2>
+
+            <div class="skill">
+              <div class="skill-label"><span>HTML &amp; CSS</span><span>Expert</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-label"><span>JavaScript</span><span>Advanced</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width: 88%;"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-label"><span>React</span><span>Advanced</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width: 82%;"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-label"><span>Figma &amp; Prototyping</span><span>Expert</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width: 92%;"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-label"><span>User Research</span><span>Intermediate</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width: 74%;"></div></div>
+            </div>
+          </section>
+
+          <section class="panel reveal" aria-labelledby="tools-title">
+            <h2 class="panel-title" id="tools-title"><span class="emoji">🧰</span> Tools &amp; Topics</h2>
+            <div class="chips">
+              <span class="chip soft-primary">Accessibility</span>
+              <span class="chip soft-sage">Design Systems</span>
+              <span class="chip soft-sky">TypeScript</span>
+              <span class="chip">Node.js</span>
+              <span class="chip soft-primary">Git &amp; GitHub</span>
+              <span class="chip soft-sage">Responsive Design</span>
+              <span class="chip">Python</span>
+              <span class="chip soft-sky">Testing</span>
+            </div>
+          </section>
+
+          <section class="panel reveal" aria-labelledby="edu-title">
+            <h2 class="panel-title" id="edu-title"><span class="emoji">🎓</span> Education</h2>
+            <div class="fact">
+              <h4>B.S. in Human–Computer Interaction</h4>
+              <p>University of Washington · 2017 — 2021</p>
+              <p>Graduated with honors. Focus on inclusive design and web technologies.</p>
+            </div>
+            <div class="fact">
+              <h4>Certificate — Front-End Web Development</h4>
+              <p>Online Professional Program · 2020</p>
+            </div>
+          </section>
+
+          <section class="panel reveal" aria-labelledby="lang-title">
+            <h2 class="panel-title" id="lang-title"><span class="emoji">🗣️</span> Languages</h2>
+            <div class="chips">
+              <span class="chip soft-primary">English · Native</span>
+              <span class="chip soft-sage">Spanish · Conversational</span>
+              <span class="chip soft-sky">Japanese · Beginner</span>
+            </div>
+          </section>
+        </aside>
+      </div>
+
+      <!-- ============ Download CTA ============ -->
+      <div class="resume-cta reveal">
+        <a class="btn btn-primary" href="#" onclick="alert('Add your PDF resume here!'); return false;">⬇️ Download printable resume</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="fun-fact">
+        <div class="fun-fact-bubble">
+          <strong>✨ Fun fact about me</strong>
+          <span>
+            I've hiked through 14 national parks, and I can name every country
+            that borders Brazil — a skill useful almost exclusively at trivia night.
+          </span>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Alex Rivera · Made with warmth and too much coffee.</p>
+        <ul>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
